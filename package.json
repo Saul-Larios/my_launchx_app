@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/jest/bin/jest.js",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Saul-Larios",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.0.2"
